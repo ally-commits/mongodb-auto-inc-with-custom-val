@@ -3,8 +3,6 @@ const Part = require('./models/Part')
 const Product = require('./models/Product')
  
 
-
-
 const connection = mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true ,useFindAndModify: false})  
 
 const func = async () => {
